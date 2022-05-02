@@ -1,26 +1,25 @@
 :root {
   // COLORS
-  --color-primary: #57a0a8;
-  --color-secondary: #c5ecf0;
-  --black: #4e4e4e;
+  --color-primary: #0058ff;
+  --color-secondary: #febe03;
+  --color-tertiary: #fd7e01;
+  --black: #93a4b1;
   --white: #ffffff;
-  --body-bg-color: #fafafa;
+  --dark-white: #93a4b1;
+  --body-bg-color: var(--white);
 
   --cards-shadow: 3px 3px 22px -12px rgba(0, 0, 0, 0.42);
 }
 
 //FONT FAMILY
-$title-font: "Roboto Slab", serif;
-$body-font: "proxima-nova", sans-serif;
-$body-secondary: "Sarabun", sans-serif;
+$title-font: "kallisto", sans-serif;
+$body-font: "Poppins", sans-serif;
 $bold: 700;
 
 // FONT-SIZES
-$basic-font-size: 1.7rem;
+$basic-font-size: 1.8rem;
 $mobile-font-size: 1.5rem;
 
-$big-title: 4rem;
-$title-font-size: 3.5rem;
+$big-title: 4.8rem;
+$title-font-size: 3.3rem;
 $mobile-title-font-size: 3rem;
-
-$offset: -30rem;

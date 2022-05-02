@@ -7,16 +7,75 @@
     <title>Document</title>
     <!-- Google Fonts -->
     <!-- Google Fonts Link: https://fonts.google.com/share?selection.family=Open%20Sans:wght@300;400;600;700 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
       rel="stylesheet"
-    />
+    /> -->
+    <link rel="stylesheet" href="https://use.typekit.net/nxf4ohg.css" />
     <link rel="stylesheet" href="./scss/index.scss" />
   </head>
   <body>
-    Hello world!
+    <header class="hero">
+      <div class="hero__container container">
+        <img src="./assets/wod-logo.svg" alt="Water on Demand Logo" />
+        <div class="hero__bottom-part">
+          <div class="hero__left-part">
+            <h1 class="hero__title">
+              <strong>Invest in water like</strong><br />An oil well&trade;
+            </h1>
+            <ul class="hero__ul">
+              <li class="hero__li">
+                <img
+                  class="hero__li-icon"
+                  src="./assets/icons/li-arrow.svg"
+                /><span class="hero__li-text"
+                  >Duplicating the most profitable energy model ever
+                  invented.</span
+                >
+              </li>
+              <li class="hero__li">
+                <img
+                  class="hero__li-icon"
+                  src="./assets/icons/li-arrow.svg"
+                /><span class="hero__li-text"
+                  >Inflation-countering asset that isn’t already at an all time
+                  high.</span
+                >
+              </li>
+              <li class="hero__li">
+                <img
+                  class="hero__li-icon"
+                  src="./assets/icons/li-arrow.svg"
+                /><span class="hero__li-text"
+                  >To transform the most valuable commodity in the world.</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="hero__right-part">
+            <video
+              class="hero__video"
+              controls
+              poster="./assets/hero-video-poster.png"
+            >
+              <source
+                src="https://originclear-static-assets.s3.amazonaws.com/hero-video.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/top-header-image.png"
+        alt=""
+        role="presentation"
+        class="hero__bg-image"
+      />
+    </header>
     <script src="./index.js" type="module"></script>
   </body>
 </html>

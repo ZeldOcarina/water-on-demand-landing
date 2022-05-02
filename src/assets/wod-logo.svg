@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="227.814" height="100" viewBox="0 0 227.814 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_9" data-name="Rettangolo 9" width="227.814" height="100" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_333" data-name="Raggruppa 333" transform="translate(0 0)">
+    <g id="Gruppo_di_maschere_5" data-name="Gruppo di maschere 5" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Tracciato_8" data-name="Tracciato 8" d="M87.753,51.724a18.674,18.674,0,0,1-4.533-7.41L77.769,60.945,59.185,3.935A2.085,2.085,0,0,0,56.938,2.3H49.995a2.084,2.084,0,0,0-2.247,1.634L29.062,60.945,10.477,3.935A2.084,2.084,0,0,0,8.231,2.3H1.8A1.584,1.584,0,0,0,.164,4.65L23.343,72.8a2.3,2.3,0,0,0,2.349,1.634h6.841A2.084,2.084,0,0,0,34.78,72.8L53.466,16.3,72.051,72.8A2.084,2.084,0,0,0,74.3,74.431h6.842A2.3,2.3,0,0,0,83.487,72.8l6.43-18.9Z" transform="translate(0 0.001)" fill="#fff"/>
+      <path id="Tracciato_9" data-name="Tracciato 9" d="M105.86,7.023l.807-2.372A1.584,1.584,0,0,0,105.033,2.3H98.7a2.084,2.084,0,0,0-2.246,1.634l-6.1,18.6Z" transform="translate(0 0.001)" fill="#fff"/>
+      <text id="WATER_ON_DEMAND" data-name="WATER ON DEMAND" transform="translate(13.851 97.199)" fill="#0114ac" font-size="14" font-family="Kallisto-Medium, Kallisto" font-weight="500"><tspan x="0" y="0" letter-spacing="0.164em">W</tspan><tspan y="0" letter-spacing="0.108em">A</tspan><tspan y="0" letter-spacing="0.21em">TE</tspan><tspan y="0" letter-spacing="0.209em">R</tspan><tspan y="0" letter-spacing="0.21em"> </tspan><tspan y="0" letter-spacing="0.209em">O</tspan><tspan y="0" letter-spacing="0.21em">N DEM</tspan><tspan y="0" letter-spacing="0.209em">A</tspan><tspan y="0" letter-spacing="0.21em">N</tspan><tspan y="0">D</tspan></text>
+      <text id="TM" transform="translate(211.259 92.481)" fill="#0114ac" font-size="8" font-family="Kallisto-Medium, Kallisto" font-weight="500"><tspan x="0" y="0" letter-spacing="0.21em">T</tspan><tspan y="0">M</tspan></text>
+      <path id="Tracciato_10" data-name="Tracciato 10" d="M150.59,34.62,140.583,44.642v21.49L150.59,56.112Z" transform="translate(0 0.019)" fill="#fff"/>
+      <path id="Tracciato_11" data-name="Tracciato 11" d="M186.636,2.3h-44.01a1.834,1.834,0,0,0-2.042,2.043V7.316l10.007,10.013V12.007h35.126c11.13,0,15.113,3.575,15.113,17.369V47.664c0,13.793-4.085,17.163-15.113,17.163H150.591V59.536L140.584,69.558v2.831a1.834,1.834,0,0,0,2.042,2.043h44.01c17.461,0,24.1-8.071,24.1-26.667V29.376c0-18.7-6.638-27.075-24.1-27.075" transform="translate(0 0.001)" fill="#fff"/>
+      <path id="Tracciato_12" data-name="Tracciato 12" d="M119.759,17.288c.349.4.7.792,1.041,1.2a76.6,76.6,0,0,0-12.214,22.845l-.063.265v0a74.556,74.556,0,0,0-3.754,23.765L89.457,50.02a16.43,16.43,0,0,1,.008-23.19L109.2,7.08q.91.744,1.8,1.513c.36.311.728.611,1.083.928q1.512,1.346,2.958,2.76c.073.072.152.139.225.211q1.55,1.523,3.014,3.119c.314.341.611.694.919,1.039.188.211.37.427.556.639" transform="translate(0 0.004)" fill="#068cff"/>
+      <path id="Tracciato_13" data-name="Tracciato 13" d="M155.833,25.98,134.667,4.8a16.387,16.387,0,0,0-23.184,0l-.553.553a90.642,90.642,0,0,1,12.36,12.326,87.6,87.6,0,0,1,12.294,20.1,14.1,14.1,0,0,1,.758,7.7Z" transform="translate(0 0)" fill="#0058ff"/>
+      <path id="Tracciato_14" data-name="Tracciato 14" d="M107.227,67.811l4.25,4.254a16.284,16.284,0,0,0,11.592,4.8h0a16.28,16.28,0,0,0,11.594-4.81l22.021-22.052A16.432,16.432,0,0,0,157.5,27.7L133.425,51.815a13.751,13.751,0,0,1-2.411,2.375,14.042,14.042,0,0,1-21.74-6.523,72.619,72.619,0,0,0-2.047,20.143" transform="translate(0 0.015)" fill="#0015ac"/>
+    </g>
+  </g>
+</svg>
