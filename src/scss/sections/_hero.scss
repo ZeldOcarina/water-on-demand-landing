@@ -4,6 +4,12 @@
   color: var(--white);
   display: flex;
   align-items: center;
+  background: var(--dark-body-bg);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 4, 23, 0.8) 0%,
+    rgba(0, 4, 23, 0.8) 100%
+  );
 
   &__container {
     display: grid;
