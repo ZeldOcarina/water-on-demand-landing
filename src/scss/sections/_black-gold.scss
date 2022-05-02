@@ -1,0 +1,24 @@
+.black-gold {
+  background-color: var(--dark-body-bg);
+  padding-bottom: 6rem;
+
+  &__title {
+    margin: 0;
+  }
+
+  &__intro {
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto 0 auto;
+  }
+
+  &__cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    justify-content: center;
+    gap: 4rem;
+    max-width: 90%;
+    margin: 7rem auto 0 auto;
+  }
+}
