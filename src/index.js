@@ -4,4 +4,6 @@ if (module.hot) {
     module.hot.accept();
 }
 
-new GoldCards(document.querySelectorAll(".gold-card__content"));
+document.addEventListener("DOMContentLoaded", () => {
+    new GoldCards(document.querySelectorAll(".gold-card__content"));
+});
