@@ -1,4 +1,4 @@
-class GoldCards {
+class Cards {
     constructor(cards) {
         this.cards = cards;
         this.init();
@@ -20,4 +20,4 @@ class GoldCards {
     }
 }
 
-export default GoldCards;
+export default Cards;

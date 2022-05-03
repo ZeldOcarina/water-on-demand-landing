@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107.227" height="93.724" viewBox="0 0 107.227 93.724">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_305" data-name="Rettangolo 305" width="107.227" height="93.724" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_389" data-name="Raggruppa 389" transform="translate(-1396.08 -6442.431)">
+    <g id="Raggruppa_380" data-name="Raggruppa 380" transform="translate(1396.08 6442.431)">
+      <g id="Raggruppa_377" data-name="Raggruppa 377">
+        <g id="Raggruppa_376" data-name="Raggruppa 376" clip-path="url(#clip-path)">
+          <path id="Tracciato_361" data-name="Tracciato 361" d="M60.2,3.43,11.6,30.378h97.208Z" transform="translate(-6.589 -1.948)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+      <path id="Tracciato_362" data-name="Tracciato 362" d="M111.013,65.822V71.9H27.806V65.822" transform="translate(-15.796 -37.393)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Tracciato_363" data-name="Tracciato 363" d="M111.013,188.541v-7.723H27.806v7.723" transform="translate(-15.796 -102.721)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Raggruppa_379" data-name="Raggruppa 379">
+        <g id="Gruppo_di_maschere_378" data-name="Gruppo di maschere 378" clip-path="url(#clip-path)">
+          <path id="Tracciato_364" data-name="Tracciato 364" d="M43.215,85.066a2.646,2.646,0,0,1-5.291,0H33.1a2.646,2.646,0,0,1-5.291,0V79.884H43.215Z" transform="translate(-15.797 -45.381)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Tracciato_365" data-name="Tracciato 365" d="M43.215,165.339a2.646,2.646,0,0,0-5.291,0H33.1a2.646,2.646,0,0,0-5.291,0v5.182H43.215Z" transform="translate(-15.797 -92.425)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Tracciato_366" data-name="Tracciato 366" d="M121.7,165.339a2.646,2.646,0,0,0-5.291,0h-4.826a2.646,2.646,0,0,0-5.291,0v5.182H121.7Z" transform="translate(-60.385 -92.425)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Tracciato_367" data-name="Tracciato 367" d="M200.189,165.339a2.646,2.646,0,0,0-5.291,0h-4.826a2.646,2.646,0,0,0-5.291,0v5.182h15.408Z" transform="translate(-104.972 -92.425)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Tracciato_368" data-name="Tracciato 368" d="M121.7,85.066a2.646,2.646,0,0,1-5.291,0h-4.826a2.646,2.646,0,0,1-5.291,0V79.884H121.7Z" transform="translate(-60.385 -45.381)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Tracciato_369" data-name="Tracciato 369" d="M200.189,85.066a2.646,2.646,0,0,1-5.291,0h-4.826a2.646,2.646,0,0,1-5.291,0V79.884h15.408Z" transform="translate(-104.972 -45.381)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Linea_38" data-name="Linea 38" y2="27.939" transform="translate(14.656 42.33)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Linea_39" data-name="Linea 39" y2="27.939" transform="translate(24.773 42.33)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Linea_40" data-name="Linea 40" y2="27.939" transform="translate(48.555 42.33)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Linea_41" data-name="Linea 41" y2="27.939" transform="translate(58.672 42.33)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Linea_42" data-name="Linea 42" y2="27.939" transform="translate(82.454 42.33)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Linea_43" data-name="Linea 43" y2="27.939" transform="translate(92.571 42.33)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Tracciato_370" data-name="Tracciato 370" d="M108.806,205.307H11.6v-.137a6.471,6.471,0,0,1,6.47-6.471h84.267a6.471,6.471,0,0,1,6.471,6.471Z" transform="translate(-6.589 -112.879)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <text id="_" data-name="$" transform="translate(1449.478 6462.767)" fill="#febe03" font-size="13" font-family="Kallisto-Heavy, Kallisto" font-weight="800"><tspan x="-4.791" y="0">$</tspan></text>
+  </g>
+</svg>

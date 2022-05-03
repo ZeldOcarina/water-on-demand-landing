@@ -1,0 +1,102 @@
+.investment {
+  background-color: var(--dark-body-bg);
+  background-image: linear-gradient(to bottom, #161f60 0%, #040613 100%);
+  padding: calc($gutter * 2) 0;
+
+  &__title {
+    margin: 0;
+  }
+
+  &__cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    justify-items: center;
+    justify-content: center;
+    gap: calc($gutter / 2);
+    max-width: 90%;
+    margin: $gutter auto;
+  }
+
+  &__disclaimer {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.investment-card {
+  &__title {
+    font-family: $body-font;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  &__card-title {
+    margin: 0;
+    color: var(--color-tertiary);
+    font-weight: 700;
+  }
+
+  &__card {
+    border: 1px solid var(--color-tertiary);
+    padding: 8rem 4rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin-top: 4.5rem;
+    position: relative;
+    grid-template-rows: max-content 12rem 10rem max-content;
+
+    &--2 {
+      border-color: var(--color-secondary);
+
+      .investment-card__card-title {
+        color: var(--color-secondary);
+      }
+    }
+
+    &--3 {
+      border-color: var(--color-primary);
+
+      .investment-card__card-title {
+        color: var(--color-primary);
+      }
+    }
+  }
+
+  &__card-title {
+    margin: 0;
+    font-size: 2.8rem;
+  }
+
+  &__subtitle {
+    font-family: $body-font;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    line-height: 1.2;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__paragraph {
+    margin: 4rem 0;
+    text-align: center;
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+
+  &__circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50px;
+  }
+}
