@@ -1,0 +1,12 @@
+.faq {
+  background-color: var(--dark-body-bg);
+  padding: calc($gutter * 2) 0;
+
+  &__title {
+    margin: 0;
+  }
+}
+
+#faq-container {
+  margin-top: $gutter;
+}
