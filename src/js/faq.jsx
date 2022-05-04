@@ -11,7 +11,6 @@ function Faq() {
       const response = await axios.get("/api/faq");
       setIsFetching(false);
       setFaqs(response.data);
-      console.log(response.data);
     }
     fetchData();
   }, []);
