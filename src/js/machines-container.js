@@ -1,23 +1,18 @@
 import microSvgIcon from "../assets/icons/timeline/micro.svg";
 
-/*
-<div
-  class="timeline__machines-container machines-container"
-  data-machine-amount="12"
-  data-columns="4"
-  data-rows="3"
-  data-type="micro"
-></div>
-*/
-
 class Machine {
     constructor(machineType) {
         this.machineType = machineType;
+        this._machine = undefined;
         this.init();
     }
 
     init() {
-        this.machine = this.buildMachine();
+        this._machine = this.buildMachine();
+    }
+
+    get machine() {
+        return this._machine;
     }
 
     buildMachine() {

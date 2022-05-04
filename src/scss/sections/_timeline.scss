@@ -11,7 +11,7 @@
   &__big-title {
     margin-top: $gutter;
     font-size: 5rem;
-    margin-bottom: $gutter;
+    margin-bottom: calc($gutter * 2.7);
   }
 }
 
@@ -32,6 +32,15 @@
     background-color: rgba(6, 139, 255, 0.237);
     justify-self: flex-start;
     min-width: 1px;
+    position: relative;
+    transform: scaleY(1.07);
+
+    &__pin {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-50%) translateY(-100%) scale(0.9);
+    }
   }
 
   &__title {
@@ -46,13 +55,28 @@
       margin: 0.5rem 0;
     }
   }
+
+  &__figure-container {
+    &:not(:last-child) {
+      margin-bottom: calc($gutter / 2);
+    }
+
+    .timeline__text--caption {
+      margin-top: 0;
+    }
+  }
+
+  &__amount {
+    font-size: 5rem;
+    margin: 0;
+  }
 }
 
 .machines-container {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: calc($gutter / 2);
+  margin-top: calc($gutter / 2 + 10px);
   justify-items: center;
 
   &[data-type="small"] {

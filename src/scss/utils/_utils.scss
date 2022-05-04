@@ -6,9 +6,29 @@
   visibility: hidden !important;
 }
 
+.color-primary {
+  color: var(--color-primary);
+}
+
 .color-secondary,
 .text-secondary {
   color: var(--color-secondary) !important;
+}
+
+.color-tertiary {
+  color: var(--color-tertiary);
+}
+
+.color-purple {
+  color: var(--purple);
+}
+
+.color-light-blue {
+  color: var(--light-blue);
+}
+
+.color-pink {
+  color: var(--pink);
 }
 
 .light-primary {
@@ -52,4 +72,8 @@
 
 .green {
   color: green !important;
+}
+
+.gutter-bottom {
+  margin-bottom: calc($gutter / 2) !important;
 }
