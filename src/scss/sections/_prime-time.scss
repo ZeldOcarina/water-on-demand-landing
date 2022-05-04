@@ -16,8 +16,8 @@
   }
 
   &__video {
-    margin-top: calc($gutter * 4);
-    width: 80%;
+    margin-top: calc($gutter * 3);
+    width: 75%;
     margin-left: 50%;
     transform: translateX(-50%);
   }
@@ -27,7 +27,7 @@
     top: 0;
     left: 0;
     z-index: 0;
-    transform: translateY(-10rem);
+    transform: translateY(-13rem);
     width: 100%;
   }
 }
