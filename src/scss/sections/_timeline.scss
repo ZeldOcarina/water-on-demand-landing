@@ -13,6 +13,31 @@
     font-size: 5rem;
     margin-bottom: calc($gutter * 2.7);
   }
+
+  &__bottom-text {
+    margin-top: calc($gutter * 2);
+    color: #e2ebf2;
+  }
+
+  &__ul-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: $gutter;
+  }
+
+  &__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__li {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 
 .timeline {
@@ -33,7 +58,7 @@
     justify-self: flex-start;
     min-width: 1px;
     position: relative;
-    transform: scaleY(1.07);
+    transform: scaleY(1.01) translateY(-1%);
 
     &__pin {
       position: absolute;

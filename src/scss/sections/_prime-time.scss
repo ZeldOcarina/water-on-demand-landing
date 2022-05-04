@@ -1,0 +1,33 @@
+.prime-time {
+  background-color: var(--dark-body-bg);
+  padding: $gutter 0 calc($gutter * 2) 0;
+  position: relative;
+  z-index: 1;
+
+  .intro,
+  &__title,
+  &__video {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__video {
+    margin-top: calc($gutter * 4);
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transform: translateY(-10rem);
+    width: 100%;
+  }
+}
