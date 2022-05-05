@@ -18,4 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
     //Initiate React APP for FAQs
     const root = createRoot(document.getElementById("faq-container"));
     root.render(<Faq />);
+
+    document.getElementById("date").innerText = new Date().getFullYear();
 });
