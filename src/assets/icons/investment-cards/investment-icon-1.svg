@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
-  <g id="Raggruppa_394" data-name="Raggruppa 394" transform="translate(-308 -5734)">
-    <g id="Ellisse_19" data-name="Ellisse 19" transform="translate(308 5734)" fill="#0e1545" stroke="#fff" stroke-width="1">
+  <g id="Raggruppa_424" data-name="Raggruppa 424" transform="translate(-308 -5734)">
+    <g id="Ellisse_19" data-name="Ellisse 19" transform="translate(308 5734)" fill="#0e1545" stroke="#febe03" stroke-width="1">
       <circle cx="27.5" cy="27.5" r="27.5" stroke="none"/>
       <circle cx="27.5" cy="27.5" r="27" fill="none"/>
     </g>
-    <circle id="Ellisse_20" data-name="Ellisse 20" cx="12" cy="12" r="12" transform="translate(324 5750)" fill="#fd7e01"/>
+    <circle id="Ellisse_20" data-name="Ellisse 20" cx="10" cy="10" r="10" transform="translate(326 5752)" fill="#fd7e01"/>
   </g>
 </svg>
