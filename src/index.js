@@ -9,8 +9,10 @@ if (module.hot) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    new Cards(document.querySelectorAll(".gold-card__content"));
-    new Cards(document.querySelectorAll(".investment-card__card"));
+    setTimeout(() => {
+        new Cards(document.querySelectorAll(".gold-card__content"));
+        new Cards(document.querySelectorAll(".investment-card__card"));
+    }, 1000);
     document.querySelectorAll(".machines-container").forEach(machineContainer => {
         new MachinesContainer(machineContainer);
     });
