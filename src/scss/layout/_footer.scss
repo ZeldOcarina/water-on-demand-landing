@@ -18,7 +18,9 @@
   }
 
   &__li {
-    display: flex;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
     gap: 2rem;
 
     &:not(:last-child) {
