@@ -1,13 +1,13 @@
-<svg id="Raggruppa_406" data-name="Raggruppa 406" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.723" height="93.724" viewBox="0 0 93.723 93.724">
+<svg id="Raggruppa_426" data-name="Raggruppa 426" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.723" height="93.724" viewBox="0 0 93.723 93.724">
   <defs>
     <clipPath id="clip-path">
       <rect id="Rettangolo_317" data-name="Rettangolo 317" width="93.723" height="93.724" fill="none"/>
     </clipPath>
     <clipPath id="clip-path-2">
-      <rect id="Rettangolo_315" data-name="Rettangolo 315" width="43.329" height="43.329" fill="none"/>
+      <rect id="Rettangolo_315" data-name="Rettangolo 315" width="43.329" height="43.329" fill="none" stroke="#febe03" stroke-width="1"/>
     </clipPath>
     <clipPath id="clip-path-3">
-      <rect id="Rettangolo_316" data-name="Rettangolo 316" width="25.143" height="25.143" fill="none"/>
+      <rect id="Rettangolo_316" data-name="Rettangolo 316" width="25.143" height="25.143" fill="none" stroke="#febe03" stroke-width="1"/>
     </clipPath>
   </defs>
   <g id="Raggruppa_405" data-name="Raggruppa 405" transform="translate(0 0)" clip-path="url(#clip-path)">
@@ -15,14 +15,14 @@
     <g id="Raggruppa_401" data-name="Raggruppa 401" transform="translate(50.394)" style="isolation: isolate">
       <g id="Raggruppa_400" data-name="Raggruppa 400">
         <g id="Raggruppa_399" data-name="Raggruppa 399" clip-path="url(#clip-path-2)">
-          <path id="Tracciato_373" data-name="Tracciato 373" d="M63.516.5V43.029h42.529A42.529,42.529,0,0,0,63.516.5Z" transform="translate(-63.116 -0.1)" fill="none" stroke="#fd7e00" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Tracciato_373" data-name="Tracciato 373" d="M63.516.5V43.029h42.529A42.529,42.529,0,0,0,63.516.5Z" transform="translate(-63.116 -0.1)" fill="none" stroke="#febe03" stroke-miterlimit="10" stroke-width="1"/>
         </g>
       </g>
     </g>
     <g id="Raggruppa_404" data-name="Raggruppa 404" transform="translate(55.344 13.237)" style="isolation: isolate">
       <g id="Raggruppa_403" data-name="Raggruppa 403">
         <g id="Raggruppa_402" data-name="Raggruppa 402" clip-path="url(#clip-path-3)">
-          <path id="Tracciato_374" data-name="Tracciato 374" d="M69.265,17.049a28.354,28.354,0,0,1,24.7,24.7" transform="translate(-69.217 -16.652)" fill="none" stroke="#fd7e00" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Tracciato_374" data-name="Tracciato 374" d="M69.265,17.049a28.354,28.354,0,0,1,24.7,24.7" transform="translate(-69.217 -16.652)" fill="none" stroke="#febe03" stroke-miterlimit="10" stroke-width="1"/>
         </g>
       </g>
     </g>
