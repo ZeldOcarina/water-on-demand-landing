@@ -22,9 +22,10 @@ const useStyles = makeStyles((theme) => ({
   text: {
     fontSize: theme.typography.pxToRem(25),
     color: "#93A4B1",
+    fontFamily: "Poppins, sans-serif",
 
     "& h5": {
-      fontFamily: theme.typography.fontFamily,
+      fontFamily: "Kallisto, serif",
       textAlign: "left",
       fontSize: theme.typography.pxToRem(25),
     },
