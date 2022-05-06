@@ -4,6 +4,11 @@
 
   &__title {
     margin: 0;
+
+    @include respond(iphone-8-plus-land) {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 
   &__intro {
@@ -27,6 +32,15 @@
     }
     @include respond(ipad) {
       width: 50%;
+      grid-template-columns: 1fr;
+    }
+    @include respond(iphone-12-pro-land) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include respond(iphone-8-plus-land) {
+      grid-template-columns: 1fr;
+    }
+    @include respond(iphone-12-land) {
       grid-template-columns: 1fr;
     }
   }

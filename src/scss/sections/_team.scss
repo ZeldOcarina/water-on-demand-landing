@@ -40,6 +40,12 @@
     @include respond(notebook) {
       height: 5.1rem;
     }
+    @include respond(phone-land) {
+      height: auto;
+    }
+    @include respond(phone-port) {
+      height: auto;
+    }
   }
 
   &__post {

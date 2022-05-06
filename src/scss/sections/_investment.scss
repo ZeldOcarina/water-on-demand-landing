@@ -27,6 +27,10 @@
       grid-template-columns: 1fr;
       width: 80%;
     }
+    @include respond(iphone-12-pro-land) {
+      width: 85%;
+      gap: $gutter;
+    }
   }
 
   &__disclaimer {
@@ -40,6 +44,9 @@
 
     &__br {
       @include respond(ipad-pro-11) {
+        display: none;
+      }
+      @include respond(iphone-12-pro-land) {
         display: none;
       }
     }
@@ -190,6 +197,12 @@
       @include respond(ipad-pro-11) {
         width: 100%;
       }
+      @include respond(iphone-12-land) {
+        width: 80%;
+      }
+      @include respond(iphone-12-mini-land) {
+        width: 100%;
+      }
     }
   }
 
@@ -220,12 +233,21 @@
         @include respond(ipad-pro-11) {
           width: 80%;
         }
+        @include respond(iphone-12-pro-land) {
+          width: 85%;
+        }
+        @include respond(iphone-8-plus-land) {
+          width: 70%;
+        }
       }
     }
 
     &--card-2 {
       @include respond(ipad) {
         width: 90%;
+      }
+      @include respond(iphone-8-plus-land) {
+        width: 75%;
       }
     }
   }

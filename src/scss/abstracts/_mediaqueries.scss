@@ -79,10 +79,22 @@ ORDER: Base + typography > General layout + grid > page layout > components
     } // 1024px
   }
 
+  @if $breakpoint == iphone-12-pro-land {
+    @media only screen and (max-width: #{calc(926 / 16)}em) and (max-height: #{calc(500 / 16)}em) {
+      @content;
+    } // 926px
+  }
+
   @if $breakpoint == tab-port {
     @media only screen and (max-width: 64em) {
       @content;
     } // 900px
+  }
+
+  @if $breakpoint == iphone-12-land {
+    @media only screen and (max-width: #{calc(844 / 16)}em) and (max-height: #{calc(500 / 16)}em) {
+      @content;
+    } // 844px
   }
 
   @if $breakpoint == ipad-pro-10-5 {
@@ -103,10 +115,22 @@ ORDER: Base + typography > General layout + grid > page layout > components
     } // 820px
   }
 
+  @if $breakpoint == iphone-12-mini-land {
+    @media only screen and (max-width: #{calc(780 / 16)}em) and (max-height: #{calc(500 / 16)}em) {
+      @content;
+    } // 780px
+  }
+
   @if $breakpoint == ipad {
     @media only screen and (max-width: 48em) {
       @content;
     } // 768px
+  }
+
+  @if $breakpoint == iphone-8-plus-land {
+    @media only screen and (max-width: #{calc(736 / 16)}em) and (max-height: #{calc(500 / 16)}em) {
+      @content;
+    } // 736px
   }
 
   @if $breakpoint == phone-port {

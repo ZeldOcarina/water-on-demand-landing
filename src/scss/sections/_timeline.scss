@@ -3,6 +3,10 @@
   background-image: linear-gradient(to bottom, #161f60 0%, #040613 100%);
   padding: calc($gutter * 2) 0;
 
+  @include respond(iphone-12-land) {
+    padding: calc($gutter * 2) 0 $gutter 0;
+  }
+
   &__title,
   &__big-title {
     margin: 0;
@@ -12,6 +16,15 @@
     margin-top: $gutter;
     font-size: 5rem;
     margin-bottom: calc($gutter * 2.7);
+
+    @include respond(iphone-8-plus-land) {
+      font-size: 4.5rem;
+      margin-bottom: calc($gutter * 2);
+    }
+    @include respond(iphone-12-land) {
+      font-size: 4rem;
+      margin-bottom: calc($gutter * 2);
+    }
   }
 
   &__bottom-text {
@@ -102,6 +115,13 @@
   &__amount {
     font-size: 5rem;
     margin: 0;
+
+    @include respond(iphone-8-plus-land) {
+      font-size: 3rem;
+    }
+    @include respond(iphone-12-land) {
+      font-size: 3rem;
+    }
   }
 }
 
@@ -142,9 +162,19 @@
   &__machine {
     &--small {
       transform: scale(1.1);
+
+      @media screen and (max-height: 926px) {
+        transform: scale(1.5) translateX(5px);
+        margin-bottom: 1rem;
+      }
     }
     &--medium {
       transform: scale(1.5);
+
+      @media screen and (max-height: 926px) {
+        transform: scale(2) translateX(5px);
+        margin-bottom: 1rem;
+      }
     }
   }
 }

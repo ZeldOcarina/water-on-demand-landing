@@ -8,6 +8,7 @@ class Machine {
     }
 
     init() {
+
         this._machine = this.buildMachine();
     }
 
@@ -33,12 +34,23 @@ class MachineContainer {
         this.columns = this.machineContainer.dataset.columns;
         this.rows = this.machineContainer.dataset.rows;
         this.machines = { rows: [] };
+        this.isMobile = window.matchMedia("(max-height: 926px)").matches;
         this.init();
     }
 
     init() {
-        this.buildMachines();
+        if (this.isMobile) {
+            this.buildOneMachine();
+        } else {
+            this.buildMachines();
+        }
         this.appendMachinesToDom();
+    }
+
+    buildOneMachine() {
+        const row = [];
+        row.push(new Machine(this.machineType).machine);
+        this.machines.rows.push(row);
     }
 
     buildMachines() {

@@ -27,6 +27,9 @@
     @include respond(ipad-pro-11) {
       margin-top: calc($gutter * 1.5);
     }
+    @include respond(iphone-12-pro-land) {
+      margin-top: calc($gutter * 1);
+    }
   }
 
   &__background {
@@ -48,6 +51,9 @@
     }
     @include respond(ipad) {
       transform: translateY(4.5rem);
+    }
+    @include respond(iphone-12-pro-land) {
+      transform: translateY(4rem);
     }
   }
 }

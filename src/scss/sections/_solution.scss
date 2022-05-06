@@ -11,6 +11,12 @@
   @include respond(ipad-pro-12-9) {
     font-size: 2.3rem;
   }
+  @include respond(iphone-12-pro-land) {
+    padding: calc($gutter * 2) 0;
+  }
+  @include respond(iphone-12-land) {
+    font-size: 2rem;
+  }
 
   &__title {
     margin: 0 auto 5rem auto;

@@ -57,6 +57,9 @@
       @include respond(ipad-pro-10-5) {
         font-size: 3rem;
       }
+      @include respond(iphone-8-plus-land) {
+        font-size: 2.6rem;
+      }
     }
 
     &__paragraph {
