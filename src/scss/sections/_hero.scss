@@ -13,6 +13,10 @@
     min-height: 80vh;
     grid-template-rows: max-content 1fr;
     z-index: 1;
+
+    @include respond(ipad-pro-10-5) {
+      gap: 3rem;
+    }
   }
 
   &__bottom-part {
@@ -22,6 +26,13 @@
     grid-template-columns: 1fr 1.1fr;
     gap: 6rem;
     min-height: 50vh;
+
+    @include respond(ipad-pro-12-9) {
+      grid-template-columns: 1fr;
+      gap: 0;
+      justify-items: center;
+      width: 80%;
+    }
   }
 
   &__right-part {
@@ -29,6 +40,10 @@
     height: 0;
     padding-bottom: 56.25%;
     transform: translateY(-8%);
+
+    @include respond(ipad-pro-12-9) {
+      display: none;
+    }
   }
 
   &__video {
@@ -37,6 +52,15 @@
     left: 0;
     height: auto;
     width: 100%;
+
+    &--mobile {
+      display: none;
+
+      @include respond(ipad-pro-12-9) {
+        display: block;
+        position: static;
+      }
+    }
   }
 
   &__title {
@@ -49,6 +73,12 @@
     }
     @include respond(ipad-pro-11-land) {
       font-size: 3.2rem;
+    }
+    @include respond(ipad-pro-12-9) {
+      font-size: 4.3rem;
+    }
+    @include respond(ipad-pro-10-5) {
+      font-size: 3.5rem;
     }
   }
 

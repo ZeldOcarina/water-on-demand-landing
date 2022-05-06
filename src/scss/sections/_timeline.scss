@@ -17,6 +17,10 @@
   &__bottom-text {
     margin-top: calc($gutter * 2);
     color: #e2ebf2;
+
+    @include respond(ipad) {
+      width: 80%;
+    }
   }
 
   &__ul-container {
@@ -24,6 +28,10 @@
     align-items: center;
     justify-items: center;
     margin-top: $gutter;
+
+    @include respond(ipad) {
+      width: 80%;
+    }
   }
 
   &__ul {

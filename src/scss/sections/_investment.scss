@@ -23,11 +23,26 @@
       grid-template-columns: 1fr;
       width: 70%;
     }
+    @include respond(ipad) {
+      grid-template-columns: 1fr;
+      width: 80%;
+    }
   }
 
   &__disclaimer {
     font-size: 1.5rem;
     text-align: center;
+
+    @include respond(ipad) {
+      width: 80%;
+      margin: 0 auto 2rem auto;
+    }
+
+    &__br {
+      @include respond(ipad-pro-11) {
+        display: none;
+      }
+    }
   }
 }
 
@@ -120,6 +135,9 @@
     @include respond(ipad-pro-10-5-land) {
       padding: 8rem 4.5rem 5rem 4.5rem;
     }
+    @include respond(ipad-pro-12-9) {
+      padding: 8rem 3rem 5rem 3rem;
+    }
 
     &--2 {
       border-color: var(--color-secondary);
@@ -169,6 +187,9 @@
       @include respond(ipad-pro-10-5-land) {
         width: 81%;
       }
+      @include respond(ipad-pro-11) {
+        width: 100%;
+      }
     }
   }
 
@@ -184,9 +205,28 @@
     text-transform: none;
     text-align: left;
 
+    @include respond(ipad-pro-11) {
+      max-width: 100%;
+    }
+
     &--left {
       text-align: right;
       margin-left: auto;
+
+      &--card-1 {
+        @include respond(ipad-pro-12-9) {
+          width: 50%;
+        }
+        @include respond(ipad-pro-11) {
+          width: 80%;
+        }
+      }
+    }
+
+    &--card-2 {
+      @include respond(ipad) {
+        width: 90%;
+      }
     }
   }
 

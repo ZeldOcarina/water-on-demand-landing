@@ -18,6 +18,9 @@
     @include respond(ipad-pro-10-5-land) {
       width: 50%;
     }
+    @include respond(ipad) {
+      width: 70%;
+    }
   }
 
   &__ul {

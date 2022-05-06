@@ -45,10 +45,22 @@ const useStyles = makeStyles((theme) => ({
     "@media (max-width: 1366px)": {
       right: 32,
     },
+    "@media (max-width: 1024px)": {
+      right: 35,
+    },
+    "@media (max-width: 768px)": {
+      right: 37,
+    },
   },
   accordionDetails: {
     "@media (max-width: 1366px)": {
       maxWidth: "90%",
+    },
+    "@media (max-width: 1194px)": {
+      maxWidth: "80%",
+    },
+    "@media (max-width: 768px)": {
+      maxWidth: "85%",
     },
   },
 }));

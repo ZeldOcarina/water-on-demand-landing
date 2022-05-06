@@ -50,10 +50,6 @@ h4,
 h5,
 h6 {
   font-size: $title-font-size;
-
-  @include respond(iphone-5) {
-    font-size: 2rem;
-  }
 }
 
 h2 {

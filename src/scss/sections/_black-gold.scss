@@ -21,5 +21,13 @@
     @include respond(macbook-air) {
       grid-template-columns: repeat(2, 400px);
     }
+    @include respond(ipad-pro-10-5) {
+      width: 90%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include respond(ipad) {
+      width: 50%;
+      grid-template-columns: 1fr;
+    }
   }
 }

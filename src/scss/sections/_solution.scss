@@ -8,11 +8,22 @@
   color: #ffffff;
   text-shadow: 2px 2px 11px 0px rgba(0, 4, 23, 0.55);
 
-  &__title {
-    margin: 0 auto 5rem auto;
+  @include respond(ipad-pro-12-9) {
+    font-size: 2.3rem;
   }
 
-  &__text {
+  &__title {
+    margin: 0 auto 5rem auto;
+
+    @include respond(ipad-pro-12-9) {
+      font-size: 3.5rem;
+    }
+  }
+
+  &__text,
+  &__lead {
+    width: 90%;
+    margin: 0 auto;
   }
 
   &__p {
