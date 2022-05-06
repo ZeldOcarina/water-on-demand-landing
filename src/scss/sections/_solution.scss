@@ -17,6 +17,15 @@
   @include respond(iphone-12-land) {
     font-size: 2rem;
   }
+  @include respond(iphone-12-pro-max) {
+    padding: calc($gutter * 2) 0;
+  }
+
+  .container {
+    @include respond(iphone-12) {
+      padding: 0;
+    }
+  }
 
   &__title {
     margin: 0 auto 5rem auto;
@@ -30,6 +39,11 @@
   &__lead {
     width: 90%;
     margin: 0 auto;
+
+    @include respond(iphone-12) {
+      width: 95%;
+      font-size: 2rem;
+    }
   }
 
   &__p {

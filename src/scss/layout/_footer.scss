@@ -21,10 +21,24 @@
     @include respond(ipad) {
       width: 70%;
     }
+    @include respond(iphone-12-pro-max) {
+      width: 95%;
+      padding: 0;
+    }
+    @include respond(iphone-12) {
+      width: 100%;
+      padding: 0;
+    }
   }
 
   &__ul {
     list-style: none;
+
+    @include respond(iphone-12) {
+      padding: 0;
+      width: 85%;
+      margin: 0 auto;
+    }
   }
 
   &__li {
@@ -50,6 +64,11 @@
     text-align: center;
     min-width: max-content;
     margin-top: calc($gutter / 2);
+
+    @include respond(iphone-12) {
+      min-width: auto;
+      text-align: center;
+    }
   }
 
   &__background {

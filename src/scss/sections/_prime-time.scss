@@ -4,6 +4,10 @@
   position: relative;
   z-index: 1;
 
+  @include respond(iphone-12-pro-max) {
+    padding: 0 0 calc($gutter * 2) 0;
+  }
+
   .intro,
   &__title,
   &__video {
@@ -29,6 +33,9 @@
     }
     @include respond(iphone-12-pro-land) {
       margin-top: calc($gutter * 1);
+    }
+    @include respond(iphone-12-pro-max) {
+      width: 100%;
     }
   }
 

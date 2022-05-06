@@ -6,4 +6,7 @@
   @include respond(iphone-8-plus-land) {
     width: 85%;
   }
+  @include respond(iphone-12) {
+    width: 90%;
+  }
 }

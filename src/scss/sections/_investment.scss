@@ -5,6 +5,10 @@
 
   &__title {
     margin: 0;
+
+    @include respond(iphone-12) {
+      font-size: 3rem;
+    }
   }
 
   &__cards-container {
@@ -30,6 +34,9 @@
     @include respond(iphone-12-pro-land) {
       width: 85%;
       gap: $gutter;
+    }
+    @include respond(iphone-12-pro-max) {
+      width: 100%;
     }
   }
 
@@ -63,6 +70,12 @@
       bottom: 0;
       right: 44%;
       transform: translateX(50%);
+
+      @include respond(iphone-12-pro-max) {
+        right: 50%;
+        transform: translateX(50%);
+        margin-top: 4rem;
+      }
     }
   }
 
@@ -72,6 +85,12 @@
       bottom: 0;
       left: 44%;
       transform: translateX(-50%);
+
+      @include respond(iphone-12-pro-max) {
+        left: 50%;
+        transform: translateX(-50%);
+        //margin-top: 4rem;
+      }
     }
   }
   &__title {
@@ -112,6 +131,13 @@
     border-right: 1px solid white;
     padding-right: 3rem;
     transform: translateX(3rem);
+
+    @include respond(iphone-12-pro-max) {
+      padding: 0;
+      border-right: none;
+      border-bottom: 1px solid #777777;
+      transform: translateX(0);
+    }
   }
 
   &__card {
@@ -145,6 +171,10 @@
     @include respond(ipad-pro-12-9) {
       padding: 8rem 3rem 5rem 3rem;
     }
+    @include respond(iphone-12-pro-max) {
+      grid-template-columns: 1fr;
+      padding: 6rem 2rem;
+    }
 
     &--2 {
       border-color: var(--color-secondary);
@@ -163,6 +193,9 @@
         @include respond(ipad-pro-10-5-land) {
           margin-bottom: 2rem;
         }
+        @include respond(iphone-12-pro-max) {
+          width: 100%;
+        }
       }
       .investment-card__subtitle {
         margin: 0;
@@ -176,6 +209,9 @@
 
     @include respond(ipad-pro-11-land) {
       font-size: 1.8rem;
+    }
+    @include respond(iphone-12-pro-max) {
+      text-align: center;
     }
 
     &--2 {
@@ -221,10 +257,17 @@
     @include respond(ipad-pro-11) {
       max-width: 100%;
     }
+    @include respond(iphone-12-pro-max) {
+      text-align: center;
+    }
 
     &--left {
       text-align: right;
       margin-left: auto;
+
+      @include respond(iphone-12-pro-max) {
+        text-align: center;
+      }
 
       &--card-1 {
         @include respond(ipad-pro-12-9) {
@@ -239,6 +282,9 @@
         @include respond(iphone-8-plus-land) {
           width: 70%;
         }
+        @include respond(iphone-12-pro-max) {
+          width: 100%;
+        }
       }
     }
 
@@ -249,6 +295,10 @@
       @include respond(iphone-8-plus-land) {
         width: 75%;
       }
+      @include respond(iphone-12-pro-max) {
+        width: 100%;
+        margin-top: 3rem !important;
+      }
     }
   }
 
@@ -256,8 +306,16 @@
     margin: 4rem 0;
     text-align: left;
 
+    @include respond(iphone-12-pro-max) {
+      text-align: center;
+    }
+
     &--left {
       text-align: right;
+
+      @include respond(iphone-12-pro-max) {
+        text-align: center;
+      }
     }
   }
 

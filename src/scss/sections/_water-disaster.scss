@@ -1,5 +1,13 @@
 .water-disaster {
   margin: calc($gutter * 2) auto;
+
+  .container {
+    @include respond(iphone-12-pro-max) {
+      padding: 0 !important;
+      width: 95%;
+    }
+  }
+
   &__title {
     color: var(--color-primary-dark);
     margin: 0;
@@ -59,6 +67,9 @@
       }
       @include respond(iphone-8-plus-land) {
         font-size: 2.6rem;
+      }
+      @include respond(iphone-12-pro-max) {
+        font-size: 2.4rem;
       }
     }
 

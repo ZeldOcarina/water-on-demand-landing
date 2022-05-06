@@ -20,6 +20,15 @@
     @include respond(iphone-12-pro-land) {
       padding: $gutter 0;
     }
+    @include respond(iphone-12) {
+      padding: 6rem 0;
+    }
+  }
+
+  &__logo {
+    @include respond(iphone-12-pro-max) {
+      width: 16rem;
+    }
   }
 
   &__bottom-part {
@@ -35,6 +44,9 @@
       gap: 0;
       justify-items: center;
       width: 80%;
+    }
+    @include respond(iphone-12-pro-max) {
+      width: 100%;
     }
   }
 
@@ -95,6 +107,12 @@
       font-size: 2.5rem;
       margin-top: 0;
     }
+    @include respond(iphone-12-pro-max) {
+      font-size: 3rem;
+    }
+    @include respond(iphone-12) {
+      font-size: 2.9rem;
+    }
   }
 
   &__bg-image {
@@ -113,6 +131,11 @@
 
     @include respond(ipad-pro-11-land) {
       font-size: 1.7rem;
+    }
+    @include respond(iphone-12) {
+      padding-left: 2rem;
+      width: 90%;
+      margin: 3rem auto 0 auto;
     }
   }
 

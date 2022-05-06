@@ -139,6 +139,24 @@ ORDER: Base + typography > General layout + grid > page layout > components
     } // 450px
   }
 
+  @if $breakpoint == iphone-12-pro-max {
+    @media only screen and (max-width: #{calc(428/16)}em) {
+      @content;
+    } // 428px
+  }
+
+  @if $breakpoint == iphone-8-plus {
+    @media only screen and (max-width: #{calc(414/16)}em) {
+      @content;
+    } // 414px
+  }
+
+  @if $breakpoint == iphone-12 {
+    @media only screen and (max-width: #{calc(390/16)}em) {
+      @content;
+    } // 390px
+  }
+
   @if $breakpoint == iphone-5 {
     @media only screen and (max-width: 21.875em) {
       @content;

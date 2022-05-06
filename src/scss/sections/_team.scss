@@ -48,6 +48,13 @@
     }
   }
 
+  &__name,
+  &__bio {
+    @include respond(iphone-12-pro-max) {
+      margin-left: 1rem;
+    }
+  }
+
   &__post {
     color: #d0dae3;
   }

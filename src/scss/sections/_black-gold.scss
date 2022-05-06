@@ -43,5 +43,8 @@
     @include respond(iphone-12-land) {
       grid-template-columns: 1fr;
     }
+    @include respond(iphone-12-pro-max) {
+      width: 100%;
+    }
   }
 }

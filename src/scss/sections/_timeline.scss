@@ -25,6 +25,9 @@
       font-size: 4rem;
       margin-bottom: calc($gutter * 2);
     }
+    @include respond(iphone-8-plus) {
+      font-size: 3.8rem;
+    }
   }
 
   &__bottom-text {
@@ -68,10 +71,18 @@
 
   &__left {
     padding-right: $gutter;
+
+    @include respond(iphone-12-pro-max) {
+      padding-right: 1rem;
+    }
   }
 
   &__right {
     padding-left: $gutter;
+
+    @include respond(iphone-12-pro-max) {
+      padding-left: 1rem;
+    }
   }
 
   &__center {
@@ -94,11 +105,26 @@
     font-family: $body-font;
     font-size: 3rem;
     margin: 0;
+
+    @include respond(iphone-12-pro-max) {
+      text-align: center;
+      font-size: 2.8rem;
+    }
   }
 
   &__text {
+    @include respond(iphone-12-pro-max) {
+      margin-top: 0.5rem;
+      text-align: center;
+    }
     &--caption {
       margin: 0.5rem 0;
+
+      @include respond(iphone-12-pro-max) {
+        text-align: center;
+        width: 90%;
+        margin: 0.5rem auto 0 auto;
+      }
     }
   }
 
@@ -121,6 +147,10 @@
     }
     @include respond(iphone-12-land) {
       font-size: 3rem;
+    }
+    @include respond(iphone-12-pro-max) {
+      font-size: 2.5rem;
+      text-align: center;
     }
   }
 }
@@ -157,6 +187,10 @@
   &__row {
     display: flex;
     gap: 0.5rem;
+
+    @include respond(iphone-12-pro-max) {
+      justify-content: center;
+    }
   }
 
   &__machine {
@@ -164,8 +198,11 @@
       transform: scale(1.1);
 
       @media screen and (max-height: 926px) {
-        transform: scale(1.5) translateX(5px);
+        transform: scale(1.5) translateX(-5px);
         margin-bottom: 1rem;
+      }
+      @media screen and (max-height: 926px) {
+        transform: scale(1.5) translateX(0);
       }
     }
     &--medium {
@@ -174,6 +211,13 @@
       @media screen and (max-height: 926px) {
         transform: scale(2) translateX(5px);
         margin-bottom: 1rem;
+      }
+      @include respond(iphone-12-pro-max) {
+        transform: scale(2) translateX(-5px);
+        margin-bottom: 1rem;
+      }
+      @include respond(iphone-8-plus) {
+        transform: scale(2) translateX(-4px);
       }
     }
   }
