@@ -29,13 +29,19 @@
     width: 100%;
     border: 1px solid #707070;
   }
+
   &__name {
     color: var(--black);
     font-size: 2rem;
     text-align: left;
     text-transform: none;
     margin-bottom: 0;
+
+    @include respond(notebook) {
+      height: 5.1rem;
+    }
   }
+
   &__post {
     color: #d0dae3;
   }

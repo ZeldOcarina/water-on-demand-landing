@@ -17,5 +17,9 @@
     gap: 4rem;
     max-width: 90%;
     margin: 7rem auto 0 auto;
+
+    @include respond(macbook-air) {
+      grid-template-columns: repeat(2, 400px);
+    }
   }
 }

@@ -71,6 +71,10 @@
       grid-column: 1 / -1;
       text-align: center;
       width: 50%;
+
+      @include respond(macbook-air) {
+        width: 60%;
+      }
     }
   }
 
@@ -96,6 +100,13 @@
     column-gap: $gutter;
     row-gap: 2rem;
 
+    @include respond(macbook-air) {
+      padding: 8rem 2rem 5rem 2rem;
+    }
+    @include respond(notebook) {
+      padding: 8rem 1rem 5rem 1rem;
+    }
+
     &--2 {
       border-color: var(--color-secondary);
 
@@ -119,6 +130,12 @@
   &__card-title {
     margin: 0;
     font-size: 2rem;
+
+    &--2 {
+      @include respond(macbook-air) {
+        width: 80%;
+      }
+    }
   }
 
   &__subtitle {
@@ -185,5 +202,14 @@
     left: 0;
     width: 7.5rem;
     transform: translate(7rem, 8rem);
+
+    @include respond(macbook-air) {
+      transform: translate(4.5rem, 8.5rem);
+      width: 7rem;
+    }
+    @include respond(notebook) {
+      transform: translate(3.5rem, 8rem);
+      width: 6rem;
+    }
   }
 }

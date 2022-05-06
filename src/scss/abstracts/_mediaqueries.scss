@@ -55,6 +55,18 @@ ORDER: Base + typography > General layout + grid > page layout > components
     } // 1740px
   }
 
+  @if $breakpoint == macbook-air {
+    @media only screen and (max-width: #{calc(1440 / 16)}em) {
+      @content;
+    } // 1440px
+  }
+
+  @if $breakpoint == notebook {
+    @media only screen and (max-width: #{calc(1366 / 16)}em) {
+      @content;
+    } // 1366px
+  }
+
   @if $breakpoint == short-laptop {
     @media only screen and (max-height: 50em) {
       @content;

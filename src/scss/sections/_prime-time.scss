@@ -20,6 +20,10 @@
     width: 75%;
     margin-left: 50%;
     transform: translateX(-50%);
+
+    @include respond(notebook) {
+      margin-top: calc($gutter * 2);
+    }
   }
 
   &__background {
@@ -29,5 +33,9 @@
     z-index: 0;
     transform: translateY(-13rem);
     width: 100%;
+
+    @include respond(notebook) {
+      transform: translateY(-8rem);
+    }
   }
 }

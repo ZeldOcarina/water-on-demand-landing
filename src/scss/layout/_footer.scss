@@ -8,9 +8,13 @@
   &__container {
     display: grid;
     justify-items: center;
-    width: 25%;
+    width: 30%;
     z-index: 10;
     position: relative;
+
+    @include respond(macbook-air) {
+      width: 40%;
+    }
   }
 
   &__ul {
