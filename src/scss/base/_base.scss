@@ -15,6 +15,9 @@ body {
   line-height: 1.5;
   background-color: var(--body-bg-color);
 
+  @include respond(ipad-pro-11-land) {
+    font-size: 1.7rem;
+  }
   @include respond(phone-land) {
     font-size: $mobile-font-size;
   }

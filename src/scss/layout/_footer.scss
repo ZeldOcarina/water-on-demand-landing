@@ -15,6 +15,9 @@
     @include respond(macbook-air) {
       width: 40%;
     }
+    @include respond(ipad-pro-10-5-land) {
+      width: 50%;
+    }
   }
 
   &__ul {

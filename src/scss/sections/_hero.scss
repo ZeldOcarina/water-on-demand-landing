@@ -47,6 +47,9 @@
     @include respond(notebook) {
       font-size: 3.8rem;
     }
+    @include respond(ipad-pro-11-land) {
+      font-size: 3.2rem;
+    }
   }
 
   &__bg-image {
@@ -62,6 +65,10 @@
     list-style: none;
     font-size: 1.8rem;
     font-weight: 300;
+
+    @include respond(ipad-pro-11-land) {
+      font-size: 1.7rem;
+    }
   }
 
   &__li {

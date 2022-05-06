@@ -37,5 +37,8 @@
     @include respond(notebook) {
       transform: translateY(-8rem);
     }
+    @include respond(ipad-pro-10-5-land) {
+      transform: translateY(-3rem);
+    }
   }
 }

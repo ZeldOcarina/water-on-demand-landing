@@ -42,6 +42,14 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       cursor: "pointer",
     },
+    "@media (max-width: 1366px)": {
+      right: 32,
+    },
+  },
+  accordionDetails: {
+    "@media (max-width: 1366px)": {
+      maxWidth: "90%",
+    },
   },
 }));
 
@@ -98,7 +106,7 @@ const faqItem = ({ question, answer, i }) => {
           className={classes.heading}
           dangerouslySetInnerHTML={{ __html: question }}></Typography>
       </AccordionSummary>
-      <AccordionDetails>
+      <AccordionDetails className={classes.accordionDetails}>
         <Typography
           className={classes.text}
           dangerouslySetInnerHTML={{ __html: answer }}></Typography>

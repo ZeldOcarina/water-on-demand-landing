@@ -21,6 +21,10 @@
 
     &--reverse {
       grid-template-columns: 1.3fr 1fr;
+
+      @include respond(ipad-pro-12-9-land) {
+        grid-template-columns: 1fr 1fr;
+      }
     }
 
     &--bottom {
@@ -29,6 +33,15 @@
 
       .water-disaster__row__title {
         width: 80%;
+
+        @include respond(tab-land) {
+          width: 100%;
+        }
+      }
+
+      .water-disaster__row__image--mobile {
+        width: 50%;
+        margin: 0 auto $gutter auto;
       }
     }
 
@@ -36,15 +49,51 @@
       color: var(--black);
       font-size: 3.3rem;
       text-align: left;
+
+      @include respond(ipad-land) {
+        text-align: center;
+        margin-top: 0;
+      }
+    }
+
+    &__paragraph {
+      &--mobile-hide {
+        @include respond(ipad-land) {
+          display: none;
+        }
+      }
     }
 
     &__image {
       width: 100%;
+
+      &--mobile {
+        display: none;
+
+        @include respond(ipad-land) {
+          display: block;
+          margin-bottom: calc($gutter / 2);
+        }
+      }
     }
 
     &__image-subtitle {
       font-size: 1.2rem;
       text-align: center;
+    }
+
+    &__left-content {
+      @include respond(ipad-land) {
+        grid-column: 1 / -1;
+        width: 80%;
+        margin: 0 auto 0 auto;
+      }
+    }
+
+    &__right-content {
+      @include respond(ipad-land) {
+        display: none;
+      }
     }
   }
 
