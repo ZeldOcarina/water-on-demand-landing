@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "api/faq.js": {
-      "includeFiles": "api-files/**"
-    }
-  }
-}
