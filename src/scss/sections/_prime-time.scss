@@ -62,5 +62,10 @@
     @include respond(iphone-12-pro-land) {
       transform: translateY(4rem);
     }
+    @include respond(big-desktop) {
+      transform: translateY(-10rem) translateX(-50%);
+      width: 60%;
+      left: 50%;
+    }
   }
 }
