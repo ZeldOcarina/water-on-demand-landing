@@ -23,6 +23,12 @@
     @include respond(iphone-12) {
       padding: 6rem 0;
     }
+    @include respond(pixel-3XL) {
+      padding: 6rem 0;
+    }
+    @include respond(iphone-8-plus) {
+      padding: 6rem 0;
+    }
   }
 
   &__logo {

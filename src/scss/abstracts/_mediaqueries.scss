@@ -151,6 +151,12 @@ ORDER: Base + typography > General layout + grid > page layout > components
     } // 414px
   }
 
+  @if $breakpoint == pixel-3XL {
+    @media only screen and (max-width: #{calc(412/16)}em) {
+      @content;
+    } // 428px
+  }
+
   @if $breakpoint == iphone-12 {
     @media only screen and (max-width: #{calc(390/16)}em) {
       @content;

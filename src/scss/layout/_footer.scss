@@ -69,6 +69,10 @@
       min-width: auto;
       text-align: center;
     }
+    @include respond(pixel-3XL) {
+      min-width: auto;
+      text-align: center;
+    }
   }
 
   &__background {

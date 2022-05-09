@@ -1,11 +1,10 @@
 .water-disaster {
   margin: calc($gutter * 2) auto;
 
-  .container {
-    @include respond(iphone-12-pro-max) {
-      padding: 0 !important;
-      width: 95%;
-    }
+  @include respond(iphone-12-pro-max) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 95%;
   }
 
   &__title {
@@ -26,6 +25,12 @@
     grid-template-columns: 1fr 1.3fr;
     margin-top: $gutter;
     align-items: center;
+
+    @include respond(iphone-12-pro-max) {
+      padding-left: 0;
+      padding-right: 0;
+      width: 95%;
+    }
 
     &--reverse {
       grid-template-columns: 1.3fr 1fr;
