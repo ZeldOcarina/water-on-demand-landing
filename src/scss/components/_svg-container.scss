@@ -2,4 +2,17 @@
   padding: $gutter;
   max-width: 1600px;
   margin: 0 auto;
+
+  &__desktop {
+    @include respond(phone-port) {
+      display: none;
+    }
+  }
+
+  &__mobile {
+    display: none;
+    @include respond(phone-port) {
+      display: block;
+    }
+  }
 }
