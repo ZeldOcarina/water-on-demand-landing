@@ -1,7 +1,11 @@
 .svg-container {
-  padding: $gutter;
+  padding: $gutter 0;
   max-width: 1600px;
   margin: 0 auto;
+
+  @include respond(phone-port) {
+    width: 90%;
+  }
 
   &__desktop {
     @include respond(phone-port) {
