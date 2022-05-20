@@ -23,7 +23,7 @@
     "process": "^0.11.10",
     "sass": "^1.34.0",
     "sharp": "^0.29.1",
-    "vercel": "^24.2.0"
+    "vercel": "^24.2.4"
   },
   "dependencies": {
     "@babel/runtime": "^7.14.0",
