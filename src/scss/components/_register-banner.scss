@@ -1,6 +1,5 @@
 .register-banner {
   height: 7rem;
-  background-color: orangered;
   margin: 0;
   display: grid;
   align-items: center;
@@ -16,5 +15,7 @@
     padding: 0 2rem;
     border-radius: 10px;
     height: 5rem;
+    background-color: green;
+    text-transform: none;
   }
 }
