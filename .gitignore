@@ -3,3 +3,5 @@ dist
 .cache
 .parcel-cache
 .vercel
+.DS_Store
+*.DS_Store

@@ -32,10 +32,6 @@ export default [
         "answer": "<p>For up to five years, you have the right to invest the same amount twice more, at the guaranteed price of $0.25. This is known as a warrant. This guarantees your price on potentially investing twice more.</p>"
     },
     {
-        "question": "Do I have guaranteed additional investment opportunities?",
-        "answer": "<p>For up to five years, you have the right to invest the same amount twice more, at the guaranteed price of $0.25.</p><p>This is known as a warrant. This guarantees your price on potentially investing twice more.</p><p>o You have the option to buy (or exercise) the warrant “cashless”. Cashless means you can offset the cost of the warrant with warrant shares, so you don’t have to pay any cash. You can still pay cash, to maximize the amount of shares you get.</p>"
-    },
-    {
         "question": "What do you plan to use the funds for?",
         "answer": "<p>Of the $300 million raised we plan to invest <span class=\"underlined\">at least</span> $250 million in a Water On Demand™ or WOD subsidiary, for the sole purpose of investing in water projects. The equipment will be owned by the WOD subsidiary and is intended for water managed services (pay-per-gallon).</p><p>When the funds are idle, we may make secured loans to generate income while the funds are idle. We have already completed an initial secured loan and distributed dividends.</p><p> o We plan to allocate the remaining $50 million to build our ability to manage water services. The discretionary allocations do not affect your percentage of net profits which remains 25% on your entire investment.</p>"
     },
