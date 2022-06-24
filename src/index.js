@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import Faq from "./js/faq";
 import Cards from "./js/cards";
 import MachinesContainer from "./js/machines-container";
+import UTMParamsParser from "./js/utm-params";
 
 if (module.hot) {
     module.hot.accept();
@@ -20,6 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
     //Initiate React APP for FAQs
     const root = createRoot(document.getElementById("faq-container"));
     root.render(<Faq />);
+
+    new UTMParamsParser(document.querySelectorAll("a"), new URLSearchParams(window.location.search));
 
     document.getElementById("date").innerText = new Date().getFullYear();
 });
