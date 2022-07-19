@@ -14,6 +14,7 @@ export default class UTMParamsParser {
     }
 
     init() {
+        console.log(sea);
         if (!this.searchParams.has("utm_source")) this.searchParams.append("utm_source", "wod-landing");
         if (this.searchParams.toString() === "") return;
 

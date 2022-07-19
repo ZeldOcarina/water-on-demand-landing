@@ -9,7 +9,7 @@ export default [
     },
     {
         "question": "Who can invest in the offering?",
-        "answer": "<p>Only accredited or non-US investors may participate.</p>"
+        "answer": "<p>Only accredited investors may participate.</p>"
     },
     {
         "question": "What is the standard investment?",
