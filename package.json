@@ -4,7 +4,7 @@
   "description": "A new landing page for Water on Demand",
   "scripts": {
     "start": "vercel dev",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --no-cache",
     "dev:parcel": "parcel src/index.html --no-cache"
   },
   "keywords": [],
